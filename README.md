@@ -112,5 +112,3 @@ Esta función es responsable de controlar el funcionamiento principal del progra
 ### Uso
 
 La función `manejadorMontaCargas()` debe ser llamada repetidamente en el bucle principal del programa para controlar el funcionamiento del contador con el display de 7 segmentos.
-
-Espero que esta documentación sea útil. Si tienes alguna otra pregunta, no dudes en hacerla.
