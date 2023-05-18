@@ -32,7 +32,15 @@ int n6[7] = {0, 1, 1, 1, 1, 1, 1};
 int n7[7] = {1, 1, 1, 0, 1, 0, 0};
 int n8[7] = {1, 1, 1, 1, 1, 1, 1};
 int n9[7] = {1, 1, 1, 1, 1, 1, 0};
-  
+
+void encenderNumero(int numero[]);
+void manejadorDisplay(int contador);
+void manejadorMontaCargas();
+void incrementarContador();
+void decrementarContador();
+void movimiento();
+void servicioEnPausa(int estadoAnterior);
+
 void setup()
 {
   pinMode(A, OUTPUT);
@@ -105,7 +113,6 @@ void manejadorMontaCargas(){
     estadoAnterior2 = estadoPulsador2;
   }
 }
-
 void incrementarContador() {
   contador++;
   if(contador > 9){
@@ -115,7 +122,6 @@ void incrementarContador() {
   Serial.println(contador);
   
 }
-
 void decrementarContador() {
   contador--;
   if(contador < 0){
