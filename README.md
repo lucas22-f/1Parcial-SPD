@@ -90,7 +90,7 @@ void manejadorMontaCargas(){
 }
 ```
 
-Esta función es responsable de controlar el funcionamiento principal del programa. Controla el estado del botón de parada (`btnStop`), los botones de incremento (`boton1`) y decremento (`boton2`), y decide si el servicio debe estar en pausa o no.
+Esta función es responsable de controlar el funcionamiento principal del programa. Controla el estado del botón de parada (`btnStop`), los botones de incremento (`boton2`) y decremento (`boton1`), y decide si el servicio debe estar en pausa o no.
 
 ### Comportamiento
 
