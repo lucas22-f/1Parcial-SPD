@@ -105,4 +105,4 @@ Esta función es responsable de controlar el funcionamiento principal del progra
 
 ### Uso
 
-Se llama a la funcion : `manejadorMontaCargas()`en el bucle principal para 
+Se llama a la funcion : `manejadorMontaCargas()`en el bucle principal para manejar todo el programa.
