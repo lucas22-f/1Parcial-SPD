@@ -100,15 +100,9 @@ Esta función es responsable de controlar el funcionamiento principal del progra
 4. Actualiza el estado anterior del botón de parada con el valor actual.
 5. Si el servicio está en pausa (`stoped == true`), llama a la función `manejadorDisplay(contador)` para mostrar el número actual en el display.
 6. Si el servicio no está en pausa (`stoped == false`), también llama a la función `manejadorDisplay(contador)` para mostrar el número actual en el display y continúa con las siguientes acciones:
-   - Lee el estado actual del botón de incremento (`boton1`) utilizando `digitalRead(boton1)` y lo guarda en la variable `estadoPulsador1`.
-   - Compara el estado actual del botón de incremento con el estado anterior almacenado en la variable `estadoAnterior1`.
-   - Si el estado actual es `LOW` (presionado) y el estado anterior es `HIGH` (no presionado), llama a la función `decrementarContador()` para decrementar el valor del contador y luego llama a la función `movimiento()` para indicar movimiento.
-   - Actualiza el estado anterior del botón de incremento con el valor actual.
-   - Lee el estado actual del botón de decremento (`boton2`) utilizando `digitalRead(boton2)` y lo guarda en la variable `estadoPulsador2`.
-   - Compara el estado actual del botón de decremento con el estado anterior almacenado en la variable `estadoAnterior2`.
-   - Si el estado actual es `LOW` (presionado) y el estado anterior es `HIGH` (no presionado), llama a la función `incrementarContador()` para incrementar el valor del contador y luego llama a la función `movimiento()` para indicar movimiento.
-   - Actualiza el estado anterior del botón de decremento con el valor actual.
+   - Evaluamos el boton de decremento para saber si se pulsó, en caso de que se haya pulsado se ejecuta el `decremento` se produce el `informe` y el `movimiento` del montacargas
+   - Evaluamos el boton de incremento para saber si se pulsó, en caso de que se haya pulsado se ejecuta el `incremento` se produce el `informe` y el `movimiento` del montacargas
 
 ### Uso
 
-La función `manejadorMontaCargas()` debe ser llamada repetidamente en el bucle principal del programa para controlar el funcionamiento del contador con el display de 7 segmentos.
+Se llama a la funcion : `manejadorMontaCargas()`en el bucle principal para 
