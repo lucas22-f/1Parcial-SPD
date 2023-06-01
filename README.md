@@ -106,3 +106,7 @@ Esta función es responsable de controlar el funcionamiento principal del progra
 ### Uso
 
 Se llama a la funcion : `manejadorMontaCargas()`en el bucle principal para manejar todo el programa.
+
+#Link
+https://www.tinkercad.com/things/dmh10Odv9qU-parcial-1/editel?sharecode=a5IL41po-VIOVGLS0h-x_6bLPTN7LiosoUZgI-9qlOw
+
